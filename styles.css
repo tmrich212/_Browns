@@ -1,0 +1,185 @@
+/* universal styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* LOGO & NAVBAR */
+nav {
+    height: auto;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.nav-link {
+    /* font-family: 'Passions Conflict', cursive; */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.nav-item {
+    z-index: 1;
+}
+
+/* =============== HOMEPAGE ================*/
+.header {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5)), url('nana&papa1.jpeg');
+    background-position: top;
+    background-size: cover;
+}
+
+#home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: white 5px solid;
+}
+
+.home-text {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+}
+
+/* ============== Alice =====================*/
+#alice {
+    margin: 45px 25px;
+}
+
+.alice-page {
+    background: linear-gradient( rgb(253, 157, 207),  rgb(253, 206, 231));
+    /* background: linear-gradient( rgb(253, 157, 207),  rgb(236, 182, 210)); */
+    /* margin: 0 auto; */
+}
+
+#alice-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    border-bottom: 3px solid white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#img {
+    border-radius: 10px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;   
+    /* padding: 10px; */
+}
+
+p {
+    font-family: 'Spectral', serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+/* ============== Reginald ================== */
+.reginald-page {
+    /* background: linear-gradient( rgb(146, 146, 221), rgb(207, 207, 255));*/
+    /* background: linear-gradient( rgb(68, 117, 253), rgb(174, 174, 255)); */
+    background: linear-gradient( rgb(68, 117, 253), rgb(186, 186, 226));
+}
+
+.col-lg-8 {
+    background: rgba(0,0,0,.2);
+    padding: 35px;
+}
+
+
+
+.col-lg-8 col-sm-10 {
+    padding: auto;
+    margin-bottom: 500px; 
+}
+
+.container {
+    margin-top: 25px;
+}
+
+
+
+.mx-0 {
+    text-align: right;
+    /* padding-right: 60px; */
+}
+
+/* ================= GALLERY ================= */
+#gallery {
+    margin: 0 15px;
+}
+
+w-100 shadow-1-strong rounded mb-4 {
+    image-orientation: inherit;
+    image-orientation: initial;
+    image-orientation: revert;
+    image-orientation: unset;
+}
+
+.container-xxl{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    /* background-color: cornflowerblue; */
+}
+
+#regRotate {
+    transform: rotate(90deg);
+    padding-top: 80px;
+}
+
+#famRotate {
+    transform: rotate(180deg);
+}
+
+#oldieRotate {
+    transform: rotate(270deg);
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.footer-gallery {
+    color: black;
+    font-size: 20px;
+}
+
